@@ -21,3 +21,18 @@ name_of_pet = "Spuny"
 age_of_pet = str(10)
 
 print("this is my dog "+ "Spuny" + ". He is " + "10" + " years old")
+
+
+
+
+
+
+def welcome_Msg(userName):
+    print('welcome' + str(userName) + 'to class')
+
+#call = write the function again
+
+
+input('whats your name')
+
+welcome_Msg('Aariz Faulk')
