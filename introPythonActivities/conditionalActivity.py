@@ -6,11 +6,12 @@
 # 2. In your own words, describe what 
 # a conditional statement (if/else) is 
 
-#If/else is a function that depends on if something is true than thats the answer but if its false than else is the answer.
+#If/else is a function that depends on if something is true than thats the 
+#answer but if its false than else is the answer.
 
 # 3. write a simple conditional state using a comparision operator(greater than, less than, etc. )
 
-money_in_game = 900.00
+money_in_game = 300.50
 price_of_gameItem = 300.00
 
 if money_in_game > price_of_gameItem:
@@ -35,9 +36,22 @@ if food_In_Fridge == True:
 else:print("Time to Shop!")
 
 
+
 # 5. Create a function that checks the inventory of cereal for a store. 
 # your function should have a parameter that accepts an integer. In your function
 # use a conditional statement to determine if you need to order more cereal.
 # If there is more than 10 boxes, print "inventory full", else if there are less than 
 # 10 boxes print "we need to order more cereal".
 
+
+#keyword = parameter, intiger, function, print, conditional statement, inventory, comparison using more than.
+
+
+def cereal_inventory(cereal):
+    current_cereal_inventory=10
+    if cereal >= current_cereal_inventory:
+        print("Inventory is full")
+    else :
+        print("Need to order more cereal.")
+
+cereal_inventory(10)
