@@ -21,7 +21,6 @@ def time_Of_Class():
         print("class is still in session.")
 
 time_Of_Class()
-          
 
 # 2. Write a function that uses a conditional statement. 
 # your function should determine what type a pet a user has depeding on the data provided by the user
@@ -31,7 +30,15 @@ time_Of_Class()
 # ELSE, if it is none of the animal sounds the function should return a message saying it doesn't 
 # know what the animal is. 
 
+def petType():
+    userTyped=woof("pet type is dog")
+    if:
+    userType=woof
+        print('pet type is dog')
+    else:
+        print('pet type is cat')
 
+petType()
 
 # 3. Write a function that will take in a user name and height as parameters. 
 # Your function should evaluate and determine if the user is tall in enough to get on a roller coster.
@@ -39,3 +46,12 @@ time_Of_Class()
 # and a message "welcome please buckle up".
 # ELSE if they they are not, return a message apologizing to the user saying they are not tall enough.``
 
+def userNameAndHeight ():
+     userName=kahliNixon('User name is kahli')
+     userHeight=5.5(User is tall enough to get one the ride )
+if:
+    userName = 'Aariz Faulk'
+    print("user's name is Aariz Faulk")
+else:
+    userHight=5'3
+    print("user height is 5'3")
