@@ -55,3 +55,22 @@ def amazon():
 
     print( shopping_cart)
 amazon()
+
+# Question for 10/3/23
+
+list_of_items = ['apples', 'orange', 'book']
+
+apple_price= 1.00
+orange_price= 3.00
+book_price= 10.00
+
+def rite_aid():
+    
+    what_else = input('what else would you like to add to your cart? ')
+    list_of_items.append(what_else)
+    how_much= input('how much does you item cost? ')
+    
+    print(list_of_items)
+    print(apple_price + orange_price + book_price + float(how_much))
+
+rite_aid()
