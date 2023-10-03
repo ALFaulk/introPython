@@ -20,14 +20,14 @@ favorite_Brnds = ('Gucci', 'Louis Vitoun', 'Coco Chanel,' 'Nike', 'Prada')
 # 2. Find and print the specific item in each list based on their index in the list
 # HINT you will need to use a python built-in function that specifically lets you find items in a Python list. 
 
-# find and print index 3
-zoo_animals = ['wolf','giraffe','lion','tiger','parrot']
-
+zoo_animals = ['giraffe','lion','tiger','bear','penguin']
+print(zoo_animals [3])
 # find and print index 1
-sports_on_tv =['track','cheer','baseball','badmiten','lacross']
-
+sports_on_tv =['Lacross','football','basketball','Track','Cheer']
+print(sports_on_tv [1])
 # find and print index 0
-random_numbers = [30,330,12323, 13454, 1]
+random_numbers = [30,330,12323, 1034, 2]
+print(random_numbers[0])
 
 
 # 3. Create a program that will only print out the odd numbers in this list. 
@@ -35,6 +35,9 @@ random_numbers = [30,330,12323, 13454, 1]
 # HINT- part of solving this is that you will need to use the range() function. 
 
 number_list= [1,2,3,4,5,6,7,8,9,10]
+x = range(1,10,2)
+for n in x:
+    print(n)
 
 # 4. You have been hired by amazon to be an engineer. Your first assignment is to fix their
 # shopping cart function. Your goal is to create a line of code that will
@@ -45,3 +48,10 @@ number_list= [1,2,3,4,5,6,7,8,9,10]
 # HINT - for this function you will need to use the append() function. 
 
 shopping_cart = ['books', 'laptop','paper','binder']
+
+def amazon():
+    what_else = input('what else do you want to add to your shopping cart? ')
+    shopping_cart.append(what_else)
+
+    print( shopping_cart)
+amazon()
