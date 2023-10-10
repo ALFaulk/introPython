@@ -11,10 +11,10 @@
 # 1. Create a function that will multiply two (2) values that are passed into the function as arguments. 
 # Your function should print out the result of the two numbers that have been multiplied.
 two = 2
-seven = 7
+four = 4
 
 def multiply():
-    print(two * seven)
+    print(two * four)
 
 multiply()
 
@@ -22,13 +22,13 @@ multiply()
 # two arguments and then the sum of the first two (2) should be divided by the third argument. 
 # You function should then print the result. 
 
-four = 4
-four2 = 4
-eight = 8
+six = 6
+six2 = 6
+twelve = 12
 def calculation():
-    math= four + four2
+    math= six + six2
 
-    print(int(math/eight))
+    print(int(math/twelve))
 
 calculation()
 
@@ -92,28 +92,28 @@ print(x)
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
 
 def enter_building():
-    code = int(input('what is the code to enter the building? '))
+    code = int(input('what is the passcode to enter the building? '))
     
     if code == 1920:
-        print('Great! Now please enter the second code. ')
+        print('Correct! Please enter the second passcode. ')
     else:
         print('Wrong, please try again. ')
         
-    code2 = int(input('What is the second code? '))
+    code2 = int(input('What is the second passcode? '))
     if code2 == 3039:
-        print('Great, You way now enter the building. ')
+        print('Exellent, You way now enter the building. ')
     else:
         print('Please try again from the beggining')
 
 enter_building()
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
-answer9='to call a function means when youve written a set of code you call it for the code to work'
+answer9='to call a function means when you wrote a set of code you call it for the code to work'
 
 # 10. Find and print each value at the specific indexes provided in the list.
 # find and print the values/words at index 3, 4, and 6 
 
-shopping_cart = ['apples','water','chicken','ice cream','ground beef','string beans','oranges']
+shopping_cart = ['apple sauce','water','chicken','ice cream','ground beef','greens','orange juice']
 
 print(shopping_cart[3])
 print(shopping_cart[4])
