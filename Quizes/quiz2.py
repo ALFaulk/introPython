@@ -22,15 +22,11 @@ multiply()
 # two arguments and then the sum of the first two (2) should be divided by the third argument. 
 # You function should then print the result. 
 
-six = 6
-six2 = 6
-twelve = 12
-def calculation():
-    math= six + six2
+def calculation(num1, num2, num3):
+    answer = num1 * num2
+    print(int(answer/num3))
 
-    print(int(math/twelve))
-
-calculation()
+calculation(2,8,2)
 
 # 3. Create a elevator function that will run specific lines of code based on the conditions provided by a user. If the user types in 101,
 # the function should print out they are going to the boys latin office, if they type in 203, they are going to the gym, 
@@ -40,15 +36,13 @@ calculation()
 # hint you will need to look into using conditional statements
 
 def elevator():
-    what_floor = int(input('what floor would u like to go too? '))
-
-    if str(what_floor) == 101:
-        print('you are going to the boys latin office. ')
-    
-    elif what_floor == 203:
-        print('you are going to the gym')
-    elif what_floor == 101:
-        print('you are going to the boys latin office. ')
+    elevator_floor = input('what floor would u like to go to? ')
+    if str(elevator_floor) == str(203):
+        print('You are going to the gym.')
+    elif elevator_floor == str(g):
+        print('You are going to the lobby.')
+    elif elevator_floor == str(101):
+        print('you are going to the boys latin. ')
     else:
         print('This floor dosnt exist please enter a valid floor number. ')
 
@@ -65,8 +59,7 @@ else:
 
 # 5. What function would you use if you wanted to add and element/ value to a list data type? Explain why you would use it.
 
-'I would use the append() function because in the bracets of the function append() <-----'
-'you can put str-string- int-intiger- and the other data types in it.'
+"I would use the append() function because it adds one to the bracets."
 
 # 6. Do some research and find the correct built-in python function that will reverse the order of the following list.
 # then print your list in the reverse order.
@@ -91,7 +84,7 @@ print(x)
 # - if this is correct they will get access to the building
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
 
-def enter_building():
+def building_code():
     code = int(input('what is the passcode to enter the building? '))
     
     if code == 1920:
@@ -105,7 +98,7 @@ def enter_building():
     else:
         print('Please try again from the beggining')
 
-enter_building()
+building_code()
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
 answer9='to call a function means when you wrote a set of code you call it for the code to work'
