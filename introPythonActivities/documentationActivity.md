@@ -21,10 +21,19 @@ Use the following links to read up on Cesium and Documentation
 [Cesium](https://cesium.com/learn/)
 [Documnetation](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#:~:text=Your%20first%20steps%20in%20documentation,will%20serve%20your%20project%20well)
 
-Please use the name documentationActivity.md as your file name. 
-Please create your activity in the activities folder. 
 
-If you do not follow these instructions you will lose points off of the assignment. 
+Name of project:The 3d model
 
-This assignment will must be submitted no later than 11:59pm today (11/1/2023) to recieve credit. 
+Team/ Engineer name and github link:Engineer name:Jahmere Barber, github link: https://github.com/ALFaulk
 
+The description of my program: Turns the location that you put in or object name that you put in becomes a 3d model.
+
+The features of my program:
+
+Turn anything you want into a 3d model
+
+How to install my program:
+
+Go to my github and download the file for the program.
+
+How to contribute to my program: Add a function of your choice that may make the program run smoother or better.
