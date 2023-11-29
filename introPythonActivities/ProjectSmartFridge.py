@@ -1,21 +1,10 @@
-user_item= input('what is your mood: ')
+user_item = input('what is your mood: ')
 
-while user_item != 'mad':
-    print('that is not a mood')
-    user_item= input('what is your mood:')
+if user_item == 'mad':
+    print('heres a cookie, are you feeling calm?')
 
-print('heres a cookie') 
+if user_item == 'sad':
+    print('heres some ice cream, are you feeling better?') 
 
-user_item= input('what is your mood: ')
-
-while user_item != 'sad':
-    print('that is not a mood')
-    user_item= input('what is your mood:')
-
-print('heres some ice cream') 
-
-while user_item != 'happy':
-    print('that is not a mood')
-    user_item= input('what is your mood:')
-
-print('heres some pizza')
+if user_item == 'happy':
+    print('heres a pizza, keep having a great day!')
