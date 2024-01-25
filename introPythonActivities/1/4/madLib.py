@@ -26,4 +26,4 @@ def words():
 
     story=(f"There was once a {Adjective1},zebra that everyone feared. Everywhere the zebra went everyone screamed that the,{adjective2},zebra was here to wreak havoc.The zebra decide to{Verb1} since nobody knew that she was just the evil zebra's twin sister.The,{Noun1},approached her and asked, why are destroying everything.The zebra then {verb2} at her to tell the world that she was the zebra's twin sister. Afterwards the {noun2} was nice to the zebra and they all lived in peace.")
 
-print(story)
+print(story)       
